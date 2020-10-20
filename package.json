@@ -1,0 +1,22 @@
+{
+  "name": "ewetoyeibrahim",
+  "version": "1.0.0",
+  "description": "Resume of Ewetoye Ibrahim",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ewetoye Ibrahim",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.5.3",
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

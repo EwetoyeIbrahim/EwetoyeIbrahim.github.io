@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Ewetoye Ibrahim</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><strong>EWETOYE Ibrahim</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-project-diagram"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-wrench"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-graduation-cap"></i> Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-address-book"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Full Page Image Header with Vertically Centered Content -->
+    <header
+        style="height: 100vh;
+            min-height: 500px;
+            background-image: url('static/ewetoyeIbrahim.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-right">
+                    <h1 class="font-weight-light">Full Stack Developer</h1>
+                    <p class="lead">Knowing is not enough, we must apply</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Left Side bar -->
+    <div class="col-2 col-md-1 bg-dark d-block pt-5" style="position: fixed; top: 51px; bottom: 0; left: 0;overflow-y: auto; z-index: 1000; display: block;">
+        <div class="mt-5">
+            <!-- Sidebar  -->
+            <a href="#" class="btn btn-success col-12 mb-2"><i class="fas fa-project-diagram"></i></a>
+            <a href="#" class="btn btn-success col-12 mb-2"><i class="fas fa-wrench"></i></a>
+            <a href="#" class="btn btn-success col-12 mb-2"><i class="fas fa-graduation-cap"></i></a>
+            <a href="#" class="btn btn-success col-12 mb-2"><i class="fas fa-address-book"></i></a>
+            <a href="#" class="btn btn-success col-12 mb-2"><i class="fas fa-address-book"></i></a>
+            
+        </div>
+    </div>
+
+    <!-- Page Content-->
+    <div class="col-10 col-md-11 offset-2 offset-md-1">
+        {% block main_page %}
+        {% endblock main_page %}
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
